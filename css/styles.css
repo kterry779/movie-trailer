@@ -19,6 +19,13 @@ main {
   flex-wrap: wrap;
 }
 
+/*Custom UI Controls*/
+
+.plyr__control--overlaid {
+  background: 
+  #5084ff;
+}
+
 /* Media Queries */
 /* 
   Mobile: 
