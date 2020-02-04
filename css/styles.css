@@ -21,8 +21,46 @@ main {
 
 /*Custom UI Controls*/
 
+
+
+
+
 img{
+  height:100px;
   width:100px;
+  object-fit: contain;
+
+  
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+}
+ul{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+h1{
+  display: flex;
+  font-family: 'Squada One';
+  font-size:50px;
+  justify-content: center;
+  color:goldenrod;
+  
+
+}
+
+a{
+  text-decoration:none;
+	color:black;
+	font-family: 'Squada One', cursive;
+  font-size: 15px;
 }
 
 
