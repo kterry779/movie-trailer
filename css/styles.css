@@ -32,6 +32,12 @@ main{
   flex-wrap: wrap;
   justify-content: center;
   padding:15px;
+  
+}
+
+.plyr--video .plyr__controls {
+  color: 
+#ffd573;
 }
 
 
@@ -51,8 +57,10 @@ p{
 
 h2{
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  color:black;
+  font-size: 15px;
+  color:goldenrod;
+
+  
 
 
 
