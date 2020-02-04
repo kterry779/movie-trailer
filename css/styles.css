@@ -22,7 +22,8 @@ main {
 /*Custom UI Controls*/
 
 main{
-  background-image: url('https://images.unsplash.com/photo-1533420896084-06d2bce5365f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80');
+  background-image: url('../assets/images/ice.jpg');
+  background-size:cover;
   
 }
 
@@ -44,20 +45,28 @@ img{
 
 p{
   font-family: 'Raleway', sans-serif;
+  margin: 15px 0px 0px 50px;
+ 
 }
 
 h2{
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  color:silver;
+  color:black;
+
 
 
   
 }
 ul{
   font-family: 'Raleway', sans-serif;
+  
 }
 
+footer{
+  display:flex;
+  justify-content:center
+}
 
 
 
@@ -68,16 +77,25 @@ h1{
   font-size:50px;
   justify-content: center;
   color:goldenrod;
+  text-shadow: 1px 1px grey;
   
 
 }
 
 a{
   text-decoration:none;
-	color:black;
+	color:rgb(59, 58, 58);
   font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   padding:20px;
+}
+
+blockquote{
+  font-family: 'Raleway', sans-serif;
+  background:whitesmoke;
+  padding:7px;
+ 
+  
 }
 
 
@@ -96,10 +114,7 @@ a{
 @media only screen and (min-width: 0) { 
     
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Mobile Size";
-  }
+
   
 }
 
@@ -109,10 +124,7 @@ a{
 @media only screen and (min-width: 24em)  {
     
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  }
+
 
 }
 
@@ -122,10 +134,7 @@ a{
 @media screen and (min-width: 72em)  { 
   
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
+
 
 }
 
@@ -135,10 +144,7 @@ a{
 @media screen and (min-width: 90em) { 
   
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Wide Desktop Size";
-  }
+
 
 }
 
@@ -150,10 +156,7 @@ a{
   and (max-width: 48em)  { 
     
     /* Diagnostic Styling. Delete When Done. */
-    body:before {
-         background: yellow;
-         content: "Mobile Size";
-    }
+
     
     .cast {
       text-align: center;
@@ -171,10 +174,7 @@ a{
   and (max-width: 64em)  {
     
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  } 
+
     
 }
 
@@ -187,10 +187,7 @@ a{
   and (max-width: 90em) { 
   
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
+
 
 }
 
@@ -201,10 +198,11 @@ a{
 @media screen and (min-width: 90em) { 
   
   /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Wide Desktop Size";
-  }
+ 
+
+  blockquote{
+    font-size: 20px;
+  };
 
 }
 
