@@ -106,8 +106,10 @@ a{
   font-size: 20px;
   padding:20px;
   font-weight:bold;
-  text-shadow: 1px 1px grey;
+  text-shadow: .5px .5px grey;
   padding-top:5%;
+  background:black;
+
   
 }
 
