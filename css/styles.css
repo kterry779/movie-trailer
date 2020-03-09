@@ -42,8 +42,8 @@ main{
 
 
 img{
-  height:150px;
-  width:150px;
+  height:200px;
+  width:200px;
   object-fit: contain;
 
   
@@ -60,11 +60,7 @@ h2{
   font-size: 15px;
   color:goldenrod;
 
-  
-
-
-
-  
+ 
 }
 ul{
   font-family: 'Raleway', sans-serif;
@@ -100,10 +96,21 @@ a{
 
 blockquote{
   font-family: 'Raleway', sans-serif;
-  background:whitesmoke;
-  padding:7px;
+  background:black;
+  color:white;
+  line-height:1.7;
+  width:50%;
+  padding:4%;
+
  
-  
+}
+
+.info{
+  font-family: 'Raleway', sans-serif;
+  background:black;
+  color:white;
+    width:50%;
+  padding:4%;
 }
 
 
