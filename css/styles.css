@@ -36,6 +36,7 @@ main{
   flex-wrap: wrap;
   justify-content: center;
   padding:15px;
+  padding-top:10%;
   
 }
 
@@ -64,7 +65,7 @@ h2{
   font-size: 15px;
   color:black;
   padding:2%;
-  weight:100;
+  
 
  
 }
@@ -92,13 +93,22 @@ h1{
 
 }
 
+#links{
+  display: flex;
+  justify-content: center;
+}
 
 a{
+
   text-decoration:none;
-	color:rgb(59, 58, 58);
+	color:#ffd573;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   padding:20px;
+  font-weight:bold;
+  text-shadow: 1px 1px grey;
+  padding-top:5%;
+  
 }
 
 blockquote{
@@ -206,6 +216,10 @@ h3{
 
     #ice01{
       display:none;
+    }
+
+    #links{
+      display:grid;
     }
   
 }
