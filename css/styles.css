@@ -20,6 +20,10 @@ main {
 }
 
 /*Custom UI Controls*/
+header{
+  display:flex;
+}
+
 
 main{
   background-image: url('../assets/images/ice.jpg');
@@ -58,7 +62,7 @@ p{
 h2{
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
-  color:goldenrod;
+  color:#ffd573;
 
  
 }
@@ -78,13 +82,14 @@ footer{
 h1{
   display: flex;
   font-family: 'Squada One';
-  font-size:50px;
+  font-size:100px;
   justify-content: center;
-  color:goldenrod;
-  text-shadow: 1px 1px grey;
+  color:#ffd573;
+  text-shadow: 2px 2px black;
   
 
 }
+
 
 a{
   text-decoration:none;
@@ -98,18 +103,34 @@ blockquote{
 
   line-height:1.7;
 }
+
+#chazz{
+  font-size:24px;
+  line-height:1.7;
+  font-family: 'Raleway', sans-serif;
+  color:white;
+
+}
+
+#moonquote{
+  display:flex;
+}
+
 #info{
   font-family: 'Raleway', sans-serif;
   background:black;
   color:white;
-  width:100%;
+  width:95%;
   padding:4%;
-  display:flex;
+  
 }
 
+h3{
+  color:white;
+}
 
 #info2{
-
+  color:#ffd573;
   display:inline-block;
 }
 
@@ -173,7 +194,7 @@ blockquote{
     
     /* Diagnostic Styling. Delete When Done. */
 
-    #info{
+    #moonquote{
       display:grid;
     }
     .cast {
